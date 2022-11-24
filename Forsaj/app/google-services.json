@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "484128854927",
+    "firebase_url": "https://forsaj-4fb98-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "forsaj-4fb98",
+    "storage_bucket": "forsaj-4fb98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484128854927:android:e2fcc06b260c35cda7b1fa",
+        "android_client_info": {
+          "package_name": "forsaj.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484128854927-0e2086hvlb60p5oujoq3tbsh72ppu4o5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "forsaj.app",
+            "certificate_hash": "fed440aa74ede181a75a08a80cc0e069f94693fc"
+          }
+        },
+        {
+          "client_id": "484128854927-ms38qpuhr9p6gmk2e5k4cncmrlthg98q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmxA1Eg2h69etgffdgXdGVFo5ZFtOERks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484128854927-ms38qpuhr9p6gmk2e5k4cncmrlthg98q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

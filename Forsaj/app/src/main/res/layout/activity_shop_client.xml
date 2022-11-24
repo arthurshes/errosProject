@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ShopCLientActivity">
+
+    <EditText
+        android:id="@+id/marka_car_edit"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_design"
+        android:gravity="center"
+        android:hint="Марка машины"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <EditText
+        android:id="@+id/model_car_edit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_design"
+        android:gravity="center"
+        android:hint="Модель машины"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <EditText
+        android:id="@+id/date_car_edit"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_design"
+        android:gravity="center"
+        android:hint="Год машины"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <EditText
+        android:id="@+id/city_edit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_design"
+        android:gravity="center"
+        android:hint="Населенный пункт"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259" />
+
+    <EditText
+        android:id="@+id/adress_edit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_design"
+        android:gravity="center"
+        android:hint="Адрес"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <EditText
+        android:id="@+id/cusov_edit"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_design"
+        android:gravity="center"
+        android:hint="Кузов"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <EditText
+        android:id="@+id/dvigatel_edit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_design"
+        android:gravity="center"
+        android:hint="Двигатель"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+
+    <EditText
+        android:id="@+id/zapcast_edit"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_design"
+        android:gravity="center"
+        android:hint="Нужная запчасть"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_load_client_and_shop"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_design"
+        android:backgroundTint="@color/orange"
+        android:text="Отправить"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

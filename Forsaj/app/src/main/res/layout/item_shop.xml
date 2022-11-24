@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/text_city_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="127dp"
+            android:layout_marginTop="10dp"
+            android:text="city"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/zap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="157dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/text_city_shop"
+            android:text=","
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_adress_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/zap"
+            android:text="adress"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cardate_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="127dp"
+            android:layout_marginTop="32dp"
+            android:text="date"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/zap2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="157dp"
+            android:layout_marginTop="32dp"
+            android:layout_toEndOf="@+id/text_cardate_shop"
+            android:text=","
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_carmarka_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="167dp"
+            android:layout_marginTop="32dp"
+            android:layout_toEndOf="@+id/zap2"
+            android:text="marka"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/zap3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="177dp"
+            android:layout_marginTop="32dp"
+            android:layout_toEndOf="@+id/text_carmarka_shop"
+            android:text=","
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_carmodel_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="32dp"
+
+            android:layout_toEndOf="@+id/zap3"
+            android:text="model"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/text_dvigatelmodel_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="127dp"
+            android:layout_marginTop="53dp"
+
+
+            android:text="dvigatel"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/zap4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="177dp"
+            android:layout_marginTop="53dp"
+            android:layout_toEndOf="@+id/text_dvigatelmodel_shop"
+            android:text=","
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cusovmodel_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="182dp"
+
+            android:layout_marginTop="53dp"
+            android:layout_toEndOf="@+id/zap4"
+            android:text="cusov"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/zap5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="177dp"
+            android:layout_marginTop="53dp"
+            android:layout_toEndOf="@+id/text_cusovmodel_shop"
+            android:text=","
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_zapchast_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginLeft="245dp"
+
+            android:layout_marginTop="53dp"
+
+            android:text="zapchast"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_otvet_shop"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/button_no_design"
+            android:backgroundTint="@color/green"
+            android:text="Отправить ответ"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_shop_info"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/text_shop_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:text="Название магазина"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_shop_requesut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:text="Реквезиты"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_call_shop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="80dp"
+            android:layout_toEndOf="@+id/text_shop_phone"
+            app:srcCompat="@drawable/ic_baseline_local_phone_24" />
+
+        <TextView
+            android:id="@+id/text_shop_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="90dp"
+            android:text="номер"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

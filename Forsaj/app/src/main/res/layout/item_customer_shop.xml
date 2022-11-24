@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+android:id="@+id/image_tovar_shop"
+
+            android:src="@drawable/var" />
+<TextView
+    android:layout_width="wrap_content"
+
+    android:layout_marginTop="230dp"
+    android:textStyle="bold"
+    android:text="Название:"
+    android:textSize="20sp"
+    android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_tovar_name"
+            android:layout_width="wrap_content"
+android:layout_marginLeft="100dp"
+            android:layout_marginTop="230dp"
+            android:textStyle="bold"
+            android:text="tovarname"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_marginTop="260dp"
+            android:textStyle="bold"
+            android:text="Цена:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+android:id="@+id/text_tovar_price"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="58dp"
+            android:textStyle="bold"
+            android:text="price"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_marginTop="290dp"
+            android:textStyle="bold"
+            android:text="Адрес магазина:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+android:id="@+id/text_shop_adress"
+            android:layout_marginLeft="168dp"
+            android:layout_marginTop="290dp"
+            android:textStyle="bold"
+            android:text="shop adress"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/button_yes_shop"
+    android:layout_width="220dp"
+    android:layout_marginTop="330dp"
+    android:text="Принять"
+    android:background="@drawable/button_design"
+    android:backgroundTint="@color/green"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:layout_height="50dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_no_shop"
+            android:layout_width="220dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="220dp"
+            android:text="Отклонить"
+            android:background="@drawable/button_design"
+            android:backgroundTint="@color/red"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
